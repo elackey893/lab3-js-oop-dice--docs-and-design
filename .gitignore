@@ -137,3 +137,45 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+macOS system files
+
+.DS_Store .DS_Store? ._* .Spotlight-V100 .Trashes
+
+Windows system files
+
+Thumbs.db Thumbs.db:encryptable ehthumbs.db ehthumbs_vista.db Desktop.ini $RECYCLE.BIN/
+
+Temporary files
+
+*.swp *.swo *~ *.bak *.tmp *.temp
+
+Node Modules
+
+node_modules/
+
+IDE and editor files
+
+.vscode/ .idea/ .sublime-*.code-workspace
+
+Documentation build output
+
+docs/api/ docs/generated/
+
+Local environment files
+
+.env .env.local .env.*.local .env.bak
+
+Build output and logs
+
+dist/ build/ .log npm-debug.logyarn-debug.log* yarn-error.log*
+
+Dependency lock files (optional, uncomment if you want to include)
+
+package-lock.json
+
+yarn.lock
+
+Windows-specific development artifacts
+
+*.exe *.dll *.pdb *.suo *.cache
